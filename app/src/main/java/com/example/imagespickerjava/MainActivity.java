@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     
     int position = 0;           //contatore dell'immagine
     
-    @Override
+    @Override //Override
     protected void onCreate(Bundle savedInstanceState) {        //onCreate
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
